@@ -33,20 +33,20 @@ item:
   url: ""
 - certificate_url: https://www.edx.org
   date_end: ""
-  date_start: "2021-01-01"
-  description: Formulated informed blockchain models, hypotheses, and use cases.
-  organization: edX
-  organization_url: https://www.edx.org
-  title: Blockchain Fundamentals
+  date_start: "2021-07-01"
+  description: Supervised learning with Sci-Kit Learn taught by the library's core developers.
+  organization: France Université Numérique 
+  organization_url: https://www.fun-mooc.fr/
+  title: Machine learning in Python with Sci-kit Learn
   url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
 - certificate_url: https://www.datacamp.com
-  date_end: "2020-12-21"
-  date_start: "2020-07-01"
+  date_end: ""
+  date_start: "2021-12-10"
   description: ""
   organization: DataCamp
   organization_url: https://www.datacamp.com
-  title: 'Object-Oriented Programming in R'
-  url: ""
+  title: 'Object-Oriented Programming in Python'
+  url: "https://www.datacamp.com/statement-of-accomplishment/course/4bfc5930f66e86bc8905493a9e043400e199f181"
 
 design:
   columns: '2' 
