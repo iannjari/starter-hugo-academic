@@ -10,7 +10,7 @@ headless: true
 weight: 50
 
 # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-title: 'Accomplish&shy;ments'
+title: 'Certifications'
 subtitle:
 
 # Date format
@@ -31,22 +31,22 @@ item:
   organization_url: https://www.coursera.org
   title: Neural Networks and Deep Learning
   url: ""
-- certificate_url: https://www.edx.org
+- certificate_url: https://lms.fun-mooc.fr/media/attestations/attestation_suivi_course-v1:inria+41026+session01_0af1df879f4467b30bf2d4daa5707fe0.pdf
   date_end: ""
   date_start: "2021-07-01"
   description: Supervised learning with Sci-Kit Learn taught by the library's core developers.
   organization: France Université Numérique 
   organization_url: https://www.fun-mooc.fr/
   title: Machine learning in Python with Sci-kit Learn
-  url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-- certificate_url: https://www.datacamp.com
+  url: 
+- certificate_url: https://www.datacamp.com/statement-of-accomplishment/course/4bfc5930f66e86bc8905493a9e043400e199f181
   date_end: ""
   date_start: "2021-12-10"
   description: ""
   organization: DataCamp
   organization_url: https://www.datacamp.com
   title: 'Object-Oriented Programming in Python'
-  url: "https://www.datacamp.com/statement-of-accomplishment/course/4bfc5930f66e86bc8905493a9e043400e199f181"
+  url: 
 
 design:
   columns: '2' 
