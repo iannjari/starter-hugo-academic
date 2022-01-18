@@ -63,8 +63,10 @@ highlight_name: true
 ---
 I am a Data Scientist based in Nairobi, Kenya.
 
-I have been a BSc(Computer Science) student at Kenyatta University since August 2017.
+I have been a Computer Science student at Kenyatta University (2017-2022).
 
-My interests are Data Science and ML in Fintech, Consumer Tech, Finance, Telecommunications and Healthcare.
+My interests are in Data Science and ML in Fintech, Consumer Tech, Finance, Telecommunications and Healthcare.
+
+Currently learning Neural Nets and Deep Learning with Tensorflow and Keras.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "exampleSite/static/uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
