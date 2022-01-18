@@ -67,4 +67,4 @@ I have been a BSc(Computer Science) student at Kenyatta University since August 
 
 My interests are Data Science and ML in Fintech, Consumer Tech, Finance, Telecommunications and Healthcare.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "exampleSite/static/uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
