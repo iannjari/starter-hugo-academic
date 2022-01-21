@@ -23,10 +23,10 @@ feature:
     icon_pack: fab
     name: GitHub
   - icon: chart-bar
-    icon_pack: fab
+    icon_pack: fas
     name: PowerBI
   - icon: analytics
-    icon_pack: fab
+    icon_pack: fas
     name: Tableau
 widget_id: skills
 ---
