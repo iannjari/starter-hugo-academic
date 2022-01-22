@@ -69,4 +69,4 @@ My interests are in Data Science and ML in Fintech, Consumer Tech, Finance, Tele
 
 Currently learning Neural Nets and Deep Learning with Tensorflow and Keras.
 
-{{< icon name="download" pack="fas" >}} Download my {{% staticref "uploads/cv.pdf" %}}Download my CV{{% /staticref %}}.
+{{< icon name="download" pack="fas" >}} Download my {{% staticref "uploads/cv.pdf" %}}resume{{% /staticref %}}.
