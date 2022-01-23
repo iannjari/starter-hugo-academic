@@ -39,13 +39,13 @@ item:
   organization_url: https://www.fun-mooc.fr/
   title: Machine learning in Python with Sci-kit Learn
   url: 
-- certificate_url: https://www.datacamp.com/statement-of-accomplishment/course/4bfc5930f66e86bc8905493a9e043400e199f181
+- certificate_url: https://www.datacamp.com/statement-of-accomplishment/track/792fbd441bd18df6d0c31836746d7c0d11c4e5b7
   date_end: ""
-  date_start: "2021-12-10"
+  date_start: "2022-01-23"
   description: ""
   organization: DataCamp
   organization_url: https://www.datacamp.com
-  title: 'Object-Oriented Programming in Python'
+  title: 'SQL Fundamentals Track'
   url: 
 
 design:
