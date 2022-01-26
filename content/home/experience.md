@@ -10,10 +10,10 @@ experience:
     date_start: 2021-11-01
     date_end: ""
     description: Contributing to Technology Education content with emphasis on Machine Learning.
-  - title: Student Attache
+  - title: Student Attaché
     company: Kenya Medical Training College
     company_url: "https://kmtc.ac.ke/"
-    company_logo: org-x
+    company_logo: kmtc
     location: Nairobi
     date_start: 2021-05-31
     date_end: 2021-08-27
