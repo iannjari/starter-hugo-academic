@@ -30,6 +30,7 @@ item:
   organization: Internet Society
   organization_url: https://www.internetsociety.org/ 
   title: Network Operations
+  company_logo: kmtc
   url: ""
 - certificate_url: https://lms.fun-mooc.fr/media/attestations/attestation_suivi_course-v1:inria+41026+session01_0af1df879f4467b30bf2d4daa5707fe0.pdf
   date_end: ""
