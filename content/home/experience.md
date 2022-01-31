@@ -2,7 +2,7 @@
 widget: experience
 date_format: Jan 2006
 experience:
-  - title: Engineering Education Technical Writer
+  - title: Engineering Education Technical Content Contributer
     company: Section
     company_url: "https://www.section.io/engineering-education/"
     company_logo: section
