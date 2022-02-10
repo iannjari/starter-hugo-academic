@@ -10,14 +10,14 @@ experience:
     date_start: 2021-11-01
     date_end: ""
     description: Contributing to Technology Education content with emphasis on Machine Learning.
-  - title: Student Attaché
-    company: Kenya Medical Training College
-    company_url: "https://kmtc.ac.ke/"
-    company_logo: kmtc
+  - title: Data Engineering Intern
+    company: Kyosk
+    company_url: "https://kyosk.app/"
+    company_logo: kyosk
     location: Nairobi
-    date_start: 2021-05-31
-    date_end: 2021-08-27
-    description: Configure Networks on-campus to maintain consistent service.  Offer ERP support to students and staff.
+    date_start: 2022-02-17
+    date_end: ""
+    description: Building data ETL pipeline for analytic purposes.
 
 widget_id: experience
 headless: true
