@@ -1,4 +1,34 @@
-# API Design using Spring Dependency Injection
+---
+title: API Design using Spring Dependency Injection
+
+# Date published
+date: "2022-02-24T00:00:00Z"
+
+# Date updated
+lastmod: "2022-02-24T00:00:00Z"
+
+# Is this an unpublished draft?
+draft: false
+
+# Show this page in the Featured widget?
+featured: false
+
+# Featured image
+# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
+image:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
+  focal_point: ""
+  placement: 2
+  preview_only: true
+
+authors:
+- admin
+
+tags:
+- Spring
+
+categories:
+---
 
 Dependency injection in Spring utilizes Beans (objects that are instantiated at boot time) and concept known as Autowiring. It is known as Autowirng beacause the Spring Framework 
 does this process automatically. Dependency injection helps in seperation of the back-end's functions so that it has an API layer, Service layer, and a Data Access layer by decoupling (or loose coupling) the various components. The objects(beans) thus have to be injected at boot time.
