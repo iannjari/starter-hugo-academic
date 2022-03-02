@@ -2,14 +2,14 @@
 widget: experience
 date_format: Jan 2006
 experience:
-  - title: Data Engineering Intern
+  - title: Software Engineering Intern
     company: Kyosk
     company_url: "https://kyosk.app/"
     company_logo: kyosk
     location: Nairobi
     date_start: 2022-02-17
     date_end: ""
-    description: Building data ETL pipeline for analytic purposes.
+    description: API and backend platforms development.
   - title: Engineering Education Technical Content Contributer
     company: Section
     company_url: "https://www.section.io/engineering-education/"
