@@ -66,7 +66,7 @@ Let's explore how to serve the other fields without the passwords.
 > *Note* : It is assumed that you have knowledge of building Spring RESTful applications.
 
 
-# Table of Contents
+## Table of Contents
 
 [How Spring DTOs work](#how-spring-dtos-work)
 
@@ -79,13 +79,13 @@ Let's explore how to serve the other fields without the passwords.
 [References](#references)
 
 
-# How Spring DTOs work
+## How Spring DTOs work
 
 DTos involve mapping of a queried JPA object into a format where the fields have been modified or ommitted. A query is made to the database through a repository, the query function from the Service layer is made to return a mapped object. The mapping function is declared in the Service layer while the DTO class, which defines objects to be published to the client, is defined inside it's own package or as inside the model (not recommended).
 
 Inside the controller class, the response body is made to return an object obtained through the invocation of the query function, where the mapping happened.
 
-# Creating a DTO Package and Class
+## Creating a DTO Package and Class
 
 In this demonstration, we will create a DTO to mask the password field in the AppUser class defined by the model above.
 
@@ -105,7 +105,7 @@ public class UserDto {
 
 Note that the field `password` is not included in the class since we don't want to map it in the responses.
 
-# Convert JPA Entity to DTO
+## Convert JPA Entity to DTO
 We first need to query the database using a `getById` Repository query in the User Service class as shown below;
 
 ```java
@@ -130,7 +130,7 @@ public Optional<UserDto> getUsersById(Long id) {
         return (Optional<UserDto>) userRepository.findById(id);
     }
 ```
-We then add a mapping method to the `findById` query at the return statement like;
+We then add a mapping method to the `findById` query at the return statement by modifying it like;
 ```java
 return (Optional<UserDto>) userRepository.findById(id).map(this::convertUserDto);
 ```
@@ -150,10 +150,26 @@ private UserDto convertUserDto(AppUser appUser){
 ```
 This function receives an `AppUser` object `appUser`, creates an empty `UserDto` object `userdto` and extracts the necessary fields from the `appUser`, (a JPA entity of the `Appuser` class) and sets them to the `userdto` object and returns it. therefore, the return object of the `getUsersById` function is now a `userdto` object.
 
-# Call a Mapped DTO from the Controller Layer
+## Call a Mapped DTO from the Controller Layer
 
+Finally, to serve this object to a client, create a REST endpoint that accepts an ID `userId`, calls the `getUsersById` repository function and returns the object in the response body. 
 
+```java
+@GetMapping("{userId}")
+    public ResponseEntity<Optional<UserDto>> getUser(@PathVariable Long userId){
 
-# References
+       var appuser= userService.getUsersById(userId);
+       return  ResponseEntity.ok(appuser);
+    }
+```
 
+A resourceful video guide is linked in the references section.
+
+Happy coding!
+
+## References
+
+[DTO Video guide](https://www.youtube.com/watch?v=THv-TI1ZNMk&t=993s)
+
+[Java DTO design patterns](https://java-design-patterns.com/patterns/data-transfer-object/)
 
