@@ -29,6 +29,8 @@ tags:
 - DTO
 - API
 
+---
+
 Spring DTOs help API developers serve data from JPA entities without exposing high risk data like passwords, or serving bulky unnecessary data to the client.
 DTos can be used to perform validation of data between the JPA repository and the Service Layer and client.
 
