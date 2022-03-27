@@ -1,3 +1,35 @@
+---
+title: Connecting Spring Boot App to Heroku Postgres Database
+
+# Date published
+date: "2022-03-23T00:00:00Z"
+
+# Date updated
+lastmod: "2022-03-23T00:00:00Z"
+
+# Is this an unpublished draft?
+draft: false
+
+# Show this page in the Featured widget?
+featured: false
+
+# Featured image
+# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
+image:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
+  focal_point: ""
+  placement: 2
+  preview_only: true
+
+authors:
+- admin
+
+tags:
+- Spring
+
+categories:
+---
+
 Heroku provides a fully managed Postgres Database service as a service. The database scales on demand and provides security in line with industry standards (Heroku Shield Service
 provides PCI and HIPPA compliance for data in regulated industries like healthcare).
 Heroku provides different plans for it's services one of which is it's Hobby tier which is free. This enables small hobby apps by e.g. students to be hosted for free.
