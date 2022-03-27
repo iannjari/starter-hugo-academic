@@ -28,3 +28,11 @@ The credentials include the;
 - Direct URI containing all the above details , and
 - A heroku CLI access command.
 
+# Connecting to a Spring Boot Application
+In your `application.properties` file, replace the following fields with your heroku credentials (changed for security purposes):
+
+```properties
+spring.datasource.url=jdbc:postgresql://ec2-54-2-98-1.compute-1.amazonaws.com:5432/d13n7krvji
+spring.datasource.username=kewiyuhjfdffbymlzf
+spring.datasource.password=25b316638e063d5b03aaifld855j64a1a3e68abb71e71f64f56999ba13680d
+```
