@@ -10,7 +10,8 @@ To get  started, create a heroku account if you don't have one. [Heroku sign-up]
 After signing up, login and create a new app from the button near the top-right corner. An app has to be created since a database in heroku is a
 resource for an app. Give the app a name and choose a region - skip the addition to a pipeline.
 
-![Create App](/spring-heroku-postgres/heroku-create-app.png)
+![Create App](/content/post/spring-heroku-postgres/heroku-create-app.png)
+
 You have now created a heroku app successfully.
 
 # Setting up Postgres
