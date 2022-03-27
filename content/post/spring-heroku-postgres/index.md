@@ -36,3 +36,22 @@ spring.datasource.url=jdbc:postgresql://ec2-54-2-98-1.compute-1.amazonaws.com:54
 spring.datasource.username=kewiyuhjfdffbymlzf
 spring.datasource.password=25b316638e063d5b03aaifld855j64a1a3e68abb71e71f64f56999ba13680d
 ```
+
+# Acessing the Database from Local Machine
+To access the database from another machine, you have to have Heroku CLI installed locally.
+
+Download and install heroku CLI from https://devcenter.heroku.com/articles/heroku-cli
+Make sure to check 'Add to path` box during installation.
+
+Once installed, on a new shell, check installation success using `heroku --version`
+
+Run `heroku login`. You'll be prompted to login on a browser, login with email address and
+password used for heroku sign in.
+
+Back on CLI, run the Heroku CLI access command in the credentials page in step two. e.g. `heroku pg:psql postgresql-aerodynamic-90339 --app ultra-techy-appone`
+
+You can now run SQL commands;
+```sql
+SELECT * FROM tablename;
+```
+
