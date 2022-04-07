@@ -27,6 +27,15 @@ tags:
 
 categories:
 ---
+
+Containerizing applications is the to go method of shipping applications from their development environments to deployment ones such as cloud without worrying about 
+dependencies breaking due to a change of environments.
+
+Docker is the most widely tool for this purpose. 
+
+This guide assumes you have a fully functional Spring Boot Application.
+
+
 ## Docker Installation
 Visit [Get Docker](https://docs.docker.com/get-docker/)  and click on the **Docker Desktop for Windows**, then click on the **Docker Desktop for Windows** button link.
 
@@ -54,3 +63,11 @@ Click Enter when you get the `Installing, this may take a few minutes…` messag
 Restart PC once done setting up Ubuntu.
 
 You can also watch [this YouTube video](https://www.youtube.com/watch?v=lIkxbE_We1I) to assist in installation Installing Docker on Windows 10.
+
+## Dockerfile
+
+In the root directory of your spring project, create a new file named `Dockerfile`. 
+
+**Note:** The filename does not have an extension, has to be exactly spelt and is case-sensitive.
+
+
