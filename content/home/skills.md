@@ -30,7 +30,7 @@ feature:
   - icon: github
     icon_pack: fab
     name: GitHub
-   - icon: docker
+  - icon: docker
     icon_pack: fab
     name: Docker
   - icon: kubernetes
