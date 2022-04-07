@@ -4,8 +4,6 @@ title: Dockerizing a Spring Boot Application
 # Date published
 date: "2022-04-07T00:00:00Z"
 
-# Date updated
-lastmod: "2022-02-24T00:00:00Z"
 
 # Is this an unpublished draft?
 draft: false
