@@ -16,26 +16,19 @@ feature:
   - icon: database
     icon_pack: fas
     name: SQL
-    description: MySQL, PostgreSQL
-  - icon: java
-    icon_pack: fab
-    name: Java
-    description: Spring Boot
-  - icon: table
-    icon_pack: fas
-    name: Pandas
-  - icon: git
-    icon_pack: fab
-    name: GIT
-  - icon: github
-    icon_pack: fab
-    name: GitHub
+    description: PostgreSQL, MySQL
   - icon: docker
     icon_pack: fab
     name: Docker
-  - icon: kubernetes
-    icon_pack: fab
+  - icon: dharmachakra
+    icon_pack: fas
     name: Kubernetes
+  - icon: github
+    icon_pack: fab
+    name: GitHub
+  - icon: git
+    icon_pack: fab
+    name: GIT
   - icon: chart-bar
     icon_pack: fas
     name: PowerBI
