@@ -27,7 +27,7 @@ tags:
 
 categories:
 ---
-# Docker Installation
+## Docker Installation
 Visit [Get Docker](https://docs.docker.com/get-docker/)  and click on the **Docker Desktop for Windows**, then click on the **Docker Desktop for Windows** button link.
 
 Run the **Docker Desktop Installer.exe** file from Downloads.
