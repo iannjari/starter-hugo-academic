@@ -27,3 +27,30 @@ tags:
 
 categories:
 ---
+# Docker Installation
+Visit [Get Docker](https://docs.docker.com/get-docker/)  and click on the **Docker Desktop for Windows**, then click on the **Docker Desktop for Windows** button link.
+
+Run the **Docker Desktop Installer.exe** file from Downloads.
+
+After installation when you open docker you’ll be prompted to download Windows Subsystem for Linux (WSL) in a pop up window just click on the link to proceed with installation.
+
+
+This will redirect you to the site where you’ll click on **WSL2 Linux kernel update package for x64 machines**.
+
+Run the `wsl_update_x64.msi` file from Downloads.
+
+Open PowerShell and run this command to set WSL 2 as the default version when installing a new Linux distribution:
+
+
+```bash
+wsl --set-default-version 2
+```
+Install Linux distribution of your choice from Microsoft store. Ubuntu 20.04 LTS was used for this setup.
+
+You will then need to create a user account and password for your new Linux distribution.
+
+Click Enter when you get the `Installing, this may take a few minutes…` message. 
+
+Restart PC once done setting up Ubuntu.
+
+You can also watch [this YouTube video](https://www.youtube.com/watch?v=lIkxbE_We1I) to assist in installation Installing Docker on Windows 10.
