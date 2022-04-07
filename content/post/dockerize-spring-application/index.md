@@ -70,4 +70,59 @@ In the root directory of your spring project, create a new file named `Dockerfil
 
 **Note:** The filename does not have an extension, has to be exactly spelt and is case-sensitive.
 
+Build your project using `gradle clean build` or `mvn package` from the root of the project in a terminal or using the IDE of your choice.
+This generates a JAR file in the 'build/libs/` folder for gradle or `/target/` for maven.
+
+In the Dockerfile, define the JDK used to build and compile the project, in this case, JDK 17 as follows;
+```bash
+FROM openjdk:17
+```
+
+Next, we need to expose the container's port 8080:
+```bash
+EXPOSE 8080
+```
+
+We then need to define the location of the JAR file to be contained in the container, in this case, `demo-v1.jar` in the folder where it was generated when the project 
+build was performed.
+Provide the relative path from the project root, and a desired name of the resulting image JAR in the format:
+```bash
+ADD path_to_jarfile desired_name_of_jar_in_docker_image
+```
+In our case,
+
+```bash
+ADD build/libs/demo-v1.jar tushughuli-v1.jar
+```
+Finally, define the entrypoint to the docker image, which is a way of defining what will be run when the container is run itself.
+
+Use this format:
+```bash
+ENTRYPOINT ["java","-jar","/desired_name_of_jar_in_docker_image"]
+
+In our case,
+```bash
+ENTRYPOINT ["java","-jar","/tushughuli-v1.jar"]
+```
+
+## Building the docker image
+
+The grammar of the command to build a docker image is as follows:
+
+`docker image build [OPTIONS] PATH | URL | -`
+
+To build an image, from the project root in a terminal, run:
+
+`docker image build .`
+
+**Note:** the `.` denotes that the Dockerfile is in the same folder the command is being run from.
+
+Depending on the size of the project, this may take some time.
+
+When complete, running `docker images` should show a list of local docker images including the last one.
+
+## Conclusion
+We have learnt how to install docker, create a Dockerfile and build a docker image from a Spring Boot Application.
+
+In a subsequent guide, we'll learn how to save this image on Docker Hub, and deploy it to Google Kurberntes Engine (Cloud).
 
