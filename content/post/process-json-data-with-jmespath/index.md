@@ -23,7 +23,9 @@ authors:
 - admin
 
 tags:
-- JMESPath, DTO, Spring DTO
+- JMESPath
+- DTO
+- Spring DTO
 
 categories: 
 ---
