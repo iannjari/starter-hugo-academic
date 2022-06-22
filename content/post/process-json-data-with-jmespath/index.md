@@ -177,4 +177,4 @@ The list can be sliced as desired like `data.items[0:2].colour`. Note that the s
 
 This section covers the basics and projections of JSON data using JMESPath. 
 
-Part 2 goes into detail about filtering.
+[Part 2](https://www.njari.dev/post/filter-json-data-with-jmespath/) goes into detail about filtering.
