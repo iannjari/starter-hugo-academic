@@ -30,7 +30,7 @@ tags:
 categories: 
 ---
 
-[Part 1](https://www.njari.dev/post/process-json-data-with-jmespath/) deals with basic expressions and creating list and slice projections.
+[Part 1](https://www.njari.dev/post/process-json-data-with-jmespath/) of this JMESPath series deals with basic expressions and creating list and slice projections.
 
 In this part, we'll look at filtering the results of a projection.
 
