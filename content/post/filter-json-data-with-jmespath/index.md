@@ -1,35 +1,21 @@
 ---
 title: Processing JSON data with JMESPath Part 2 - Filtering Projections
-
-# Date published
-date: "2022-04-23T00:00:00Z"
-
-
-# Is this an unpublished draft?
+date: 2022-04-23T00:00:00Z
 draft: false
-
-# Show this page in the Featured widget?
 featured: true
-
-# Featured image
-# Featured image
-# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
+authors:
+  - admin
+tags:
+  - JMESPath
+  - DTO
+  - Spring DTO
+categories: null
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
+  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)"
   focal_point: ""
   placement: 2
   preview_only: false
-  
-  
-authors:
-- admin
-
-tags:
-- JMESPath
-- DTO
-- Spring DTO
-
-categories: 
+  filename: featured.jpg
 ---
 
 [Part 1](https://www.njari.dev/post/process-json-data-with-jmespath/) of this JMESPath series deals with basic expressions and creating list and slice projections.
