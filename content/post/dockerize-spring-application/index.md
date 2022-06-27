@@ -1,31 +1,19 @@
 ---
 title: Dockerizing a Spring Boot Application
-
-# Date published
-date: "2022-04-07T00:00:00Z"
-
-
-# Is this an unpublished draft?
+date: 2022-04-07T00:00:00Z
 draft: false
-
-# Show this page in the Featured widget?
 featured: false
-
-# Featured image
-# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
+authors:
+  - admin
+tags:
+  - Spring
+categories: null
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
+  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)"
   focal_point: ""
   placement: 2
   preview_only: true
-
-authors:
-- admin
-
-tags:
-- Spring
-
-categories:
+  filename: featured.jpg
 ---
 
 Containerizing applications is the to go method of shipping applications from their development environments to deployment ones such as cloud without worrying about 
